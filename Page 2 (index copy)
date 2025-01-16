@@ -14,10 +14,10 @@
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="page_1.html">Page 1</a></li>
-                <li><a href="Page 2 (index copy)">Page 2</li>
-                <li><a href="Page 3 (page 1 copy)">Page 3</li>
+                <li><a href= "index.html">Home</a></li>
+                <li><a href= "page_1.html">Page 1</a></li>
+                <li><a href= "Page 2 (index copy)">Page 2</li>
+                <li><a href= "Page 3 (page 1 copy)">Page 3</li>
             </ul>
         </nav>
         <h1>WELCOME TO MAIZE & BLUE CUPBOARD</h1>
