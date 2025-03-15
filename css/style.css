@@ -1,0 +1,411 @@
+body{
+    background-color:#0056b3;
+}
+.skip-link{
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+.skip-link:focus {
+    top: 25px;
+    background-color: white;
+    height: 25px;
+}
+
+.navbar img {
+    justify-content: end;
+    width: 300px;
+    padding-top: 3%;
+}
+
+.mbc-grid-page{
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    overflow-x: hidden;
+    background-color: #0056b3;
+}
+
+.navbar {
+    background-color:#fcb900;
+    grid-column: 1/3;
+    padding-left: 2%;
+    height: 80px;
+}
+
+.mbc-grid-page h1{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    justify-content: center;
+    background-color:  #0056b3;
+    color: white;
+    font-size: xxx-large;
+    padding-left: 2%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+}
+
+.h2 {
+    grid-column: 2 /3;
+    background-color: #0056b3;
+    font-size: x-large;
+    color: #fcb900;
+    width: 100%;
+    height: 50px;
+    padding-left: 25%;
+    padding-right: 50%;
+    margin-top: 5%;
+    font-weight: 800;
+}
+
+ #mission-paragraph {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: white;
+    line-height: 125%;
+    padding-bottom: 20px;
+}
+
+
+.appointment-heading {
+    grid-column: 1/-1;
+    grid-row: 4/5;
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    color: #0056b3;
+    padding: 4%;
+    font-weight: 800;
+}
+
+
+.shop-paragraph {
+    background-color: white;
+    grid-column: 1/-1;
+    line-height: 125%;
+    padding-left: 25%;
+    padding-right: 20%;
+    padding-bottom: 3%;
+}
+
+.who-we-are {
+    font-size: x-large;
+    padding-top: 10%;
+    color: #fcb900;
+    padding-left: 15%;
+    font-weight: 800;
+}
+
+.wwa-paragraph {
+    grid-column: 1/4;
+    line-height: 125%;
+    color: white;
+    padding-left: 5%;
+    padding-right: 10%;
+    margin: 10px;
+}
+.facts-link {
+    grid-column: 1/4;
+    color: white;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    margin: 10px;
+}
+
+.youtube-video{
+    margin-left: 160px;
+    grid-row: 9/10;
+}
+
+
+.wwp {
+    font-size: x-large;
+    color: #fcb900;
+    padding-top: 120%;
+    padding-left: 13%;
+    font-weight: 800;
+    grid-row: 9/10;
+}
+
+.icons {
+    display: grid;
+    padding-bottom: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-start: 10;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+
+.icons > img {
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 40%;
+    padding-left: 100%;
+}
+
+.icons > h6 {
+    grid-column: 1/-1;
+    color: #fcb900;
+    justify-self: center;
+    font-size: larger;
+    line-height: 120%;
+    padding-top: 5%;
+    font-weight: 800;
+}
+
+.icons > .icon-heading {
+    grid-column: 1/-1;
+    color: #fcb900;
+    text-align: center;
+    line-height: 125%;
+    font-size: larger;
+    padding-top: 5%;
+    font-weight: 800;
+}
+
+
+.h6-writing {
+    color: #fcb900;
+    text-align: center;
+    line-height: 150%;
+    grid-column: 1/-1;
+    line-height: 120%;
+    padding-top: 5%;
+}
+
+.icons p {
+grid-column: 1/-1;
+color: #fcb900;
+line-height: 120%;
+padding-top: 5%;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+footer nav ul {
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer nav li a {
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent; 
+}
+
+footer nav li a:hover {
+    color: #0066cc;
+    border-bottom: 2px solid #0066cc; 
+}
+
+footer nav img {
+    width: 100px;
+    height: 100px;
+    padding-left: 45%;
+    padding-top: 5%;
+}
+
+.links_and_such ul {
+    justify-content: space-between;
+    display: flex;
+}
+
+
+ul {
+    height: 70px;
+    align-items: center;
+}
+
+li a {
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #0056b3;
+    color: #fff;
+    border-radius: 10px; 
+    font-weight: bold;
+}
+
+li a:active {
+    background-color: #0056b3;
+}
+
+li a:focus {
+    outline: 2px solid #ffcc00;
+}
+
+
+.main-content{
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    overflow-x: hidden;
+    background-color:  #0056b3;
+    color: white;
+}
+.main-content img{
+    grid-column: 1/-1;  
+    width:100%;
+}
+
+.academic_logo{
+    width: 100%;
+    height: 80px;
+}
+
+.title {
+    grid-column: 1/-1;
+    font-weight: 800;
+    padding-top: 2%;
+    justify-self: center;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.academic_calendar_link {
+    grid-column: 1 / -1; 
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+main .academic_calendar_link a {
+    color: #fcb900;
+    width: 100%; 
+    grid-column: 1 / -1; 
+}
+
+.main-content h3, 
+.main-content h4, 
+.main-content h5, 
+.main-content h6 {
+    font-family: 'Arial', sans-serif;
+    grid-column: 1 / -1;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+    color: #fcb900;
+    font-weight: 800;
+}
+
+.main-content p {
+    color: white;
+    grid-column: 1/-1;
+    padding-bottom: 5%;
+    line-height: 180%;
+    padding: 3%;
+    border-bottom: black dashed 2px;
+}
+
+.main-content a {
+    color: white;
+    font-weight: 800;
+}
+
+footer p {
+    text-align: center;
+    color: #0056b3;
+}
+
+footer a {
+    color: #0056b3;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    overflow-x: hidden;
+    background-color:#0056b3;
+}
+
+.navbar2 {
+    background-color:white;
+    grid-column: 1/3;
+    height: 80px;
+}
+
+.main .tutor_title {
+    grid-column: 1/4;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    padding-top: 2%;
+}
+
+.welcome {
+    grid-column: 1/4; 
+    color: white;
+    font-size: x-large;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    padding-left: 5px;
+    margin-left: 4%;
+}
+.main .program {
+    grid-column: 1/4; 
+    color: white;
+    font-size: x-large;
+    padding-top: 15%;
+    padding-bottom: 2%;
+    width: 100%;
+    margin-left: 2%;
+    padding-left: 5px;
+    margin-left: 4%;
+}
+
+
+.main p {
+    grid-column: 1/4;
+    color: white;
+    padding-bottom: 2%;
+    line-height: 130%;
+    padding-left: 5px;
+    margin-left: 4%;
+}
+
+
+.tutor_links {
+    list-style-type: disc;
+    line-height: 140%;
+    grid-column: 1/4;
+    padding-left: 5px;
+}
+
+
+.tutor_bullet {
+    color: #fcb900;
+    margin-left: 4%;
+    font-weight: 800;
+}
+
+.tutor_specific {
+    list-style-type: disc;
+    color: #fcb900;
+    margin-left: 10%;
+
+}
+
+.success_email {
+    color:#fcb900;
+}
+
+footer a {
+    color:#fcb900;
+}

@@ -5,28 +5,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
     <title>Student Success Portal</title>
 </head>
 
 <body>
     <header>
         <div class="navbar">
-            <a href="#menu">Menu</a>
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="https://mbc.studentlife.umich.edu/news/">News</a>
-                    <a href="https://mbc.studentlife.umich.edu/faq/">FAQs</a>
-                    <a href="https://mbc.studentlife.umich.edu/recipes/">Recipes</a>
-                    <a href="https://mbc.studentlife.umich.edu/contact/">Contact</a>
-                </div>
-            </div>
+                <a href="#mbc-grid-page" class="skip-link">Skip to Main Content</a>
+                <img src="images/mbc-logo.webp" alt="MBC Logo" class="mbc-logo">
         </div>
-        <a href="">Skip to Main Content</a>
-        <img src="images/mbc-logo.webp" alt="MBC Logo">
+        
+        </div>
         <nav aria-label="Main navigation">
+        <div class="links_and_such">
             <ul>
                 <li><a href= "index.html">Home</a></li>
                 <li><a href= "advising.html">Winter 2025 Important Dates</a></li>
@@ -34,39 +27,40 @@
                 <li><a href= "tutor.html">UMSI Tutoring</a></li>
             </ul>
         </nav>
+    </div>
     </header>
-    <main>
+    <main class= "mbc-grid-page">
     <h1>WELCOME TO MAIZE & BLUE CUPBOARD</h1>
-        <section>
-            <h2>OUR MISSION</h2>
-            <p> To ensure members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others.</p>
-            <p>This guide is set up to help you be successul inside and outside of the classroom and we have included
-                the following resources throughout our site:</p>
-        </section>
-        <section>
-            <h2>MAKE AN APPOINTMENT NOW</h2>
-            <p>Shopping at the Maize and Blue Cupboard is by appointment only.  Please make an appointment by visiting our sign up page<a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2023-10"> here</a>. </p>
-        </section>
-            <h2>WHO WE ARE</h2>
-            <p>College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, we help students develop the skills to make informed decisions.</p>
-            <p>Read our <a href="/faq/">FAQs</a> to learn more about the Maize and Blue Cupboard and how you can get help.</p>
-            <iframe width="420" height="315" src="https://www.youtube.com/embed/GtSf3qDmru0" aria-label="YouTube video about Food Pantry" allowfullscreen></iframe>
-            <h2>WHAT WE PROVIDE</h2>
-
+    <h2 class="h2">OUR MISSION</h2>
+        <p id="mission-paragraph"> To ensure members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others.</p>
+            <h3 class="appointment-heading">MAKE AN APPOINTMENT NOW</h3>
+            <p class="shop-paragraph">Shopping at the Maize and Blue Cupboard is by appointment only.  Please make an appointment by visiting our sign up page<a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2023-10"> here</a>. </p>
+            <h4 class="who-we-are">WHO WE ARE</h4>
+            <p class="wwa-paragraph">College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, we help students develop the skills to make informed decisions.</p>
+            <p class="facts-link">Read our <a href="/faq/">FAQs</a> to learn more about the Maize and Blue Cupboard and how you can get help.</p>
+            <iframe
+            class="youtube-video"
+             width="420" 
+             height="315" 
+             src="https://www.youtube.com/embed/GtSf3qDmru0" 
+             aria-label="YouTube video about Food Pantry" 
+             allowfullscreen>
+            </iframe>
+            <h5 class="wwp">WHAT WE PROVIDE</h5>
+            <div class="icons">
             <img src="images/FOOD.png" alt= "Food Logo">
-                <h3>FOOD</h3>
-                <p>Produce, dairy, meat, bread, frozen and shelf-stable foods (i.e. rice, cans, tuna, etc.)</p>
+                <h6>FOOD</h6>
+                <p class="h6-writing">Produce, dairy, meat, bread, frozen and shelf-stable foods (i.e. rice, cans, tuna, etc.)</p>
                 <img src="images/KITCHEN_AND_COOKING.png" alt= "Kitchen Logo">
-                <h3>KITCHEN & COOKING</h3>
+                <h3 class="icon-heading">KITCHEN & COOKING</h3>
                 <p>Dishes, silverware, pots & pans, Tupperware, cutting boards, knives, and other kitchenware</p>
                 <img src="images/P&H.png" alt= "Personal and Household Logo">
-                <h3>PERSONAL & HOUSEHOLD</h3>
+                <h4 class="icon-heading">PERSONAL & HOUSEHOLD</h4>
                 <p>Trash bags, toilet paper, cleaning supplies, hygiene products, school supplies, baby items and more</p>
                 <img src="images/SUPPORT.png" alt= "Support Logo">
-                <h3>SUPPORT</h3>
+                <h5 class="icon-heading">SUPPORT</h5>
                 <p>Get connected to campus experts like CAPS, Dean of Students and Financial Aid, as well as SNAP (Michigan’s food program)</p>
-
-                <img src="images/CARROTS.jpg" alt= "Carrots">
+            </div>
     </main>
     <footer>
         <nav aria-label="Footer navigation">
