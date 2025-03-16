@@ -3,16 +3,23 @@ body{
 }
 .skip-link{
     position: absolute;
-    top: -50px;
-    left: 0;
+    top: -60px;
+    font-size: large;
+    padding: 3%;
+    border: #fcb900 2px solid;
+    color:#08407c;
+    background-color:white;
+    height: 20px;   
 }
 
 .skip-link:focus {
     top: 35px;
-    background-color: white;
     font-size: large;
-    color: black;
-    height: 25px;
+    padding: 3%;
+    border: #fcb900 2px solid;
+    color:#08407c;
+    background-color:white;
+    height: 20px;   
 }
 
 .navbar img {
