@@ -10,6 +10,7 @@ body{
 .skip-link:focus {
     top: 35px;
     background-color: white;
+    font-size: large;
     color: black;
     height: 25px;
 }
