@@ -1,7 +1,17 @@
 body{
     background-color:#08407c;
-    overflow-x:hidden 
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.mbc-grid-page, #home-content, #main-content, .important-content {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
 .skip-link{
     position: absolute;
     top: -90px;
@@ -10,12 +20,12 @@ body{
     border: #fcb900 2px solid;
     color:#08407c;
     background-color:white;
-    height: 20px;   
+    height: 20zpx;   
 }
 
 .skip-link:focus {
     top: 35px;
-    font-size: large;
+    font-size: xx-large;
     padding: 3%;
     border: #fcb900 2px solid;
     color:#08407c;
@@ -24,18 +34,22 @@ body{
 }
 
 .navbar img {
-    width: 250px;
+    width: 100%;
+    height: 100%;
     padding-top: 5%;
 }
 
-.mbc-grid-page{
+.mbc-grid-page {
     display: grid;
-    overflow-x:hidden ;
-    grid-template-columns: 100px 200px 100px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
     font-family: Arial, sans-serif;
     font-size: large;
-    overflow-x: hidden;
     background-color: #08407c;
+    color: white;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar {
@@ -47,12 +61,11 @@ body{
 
 .mbc-grid-page h1{
     grid-row: 1/2;
-    grid-column: 1/-1;
+    grid-column: 1/4;
     justify-content: center;
     background-color:  #08407c;
     color: white;
-    font-size: xx-large;
-    margin-top: 10%;
+    font-size: xxx-large;
     margin-bottom: 2%;
     text-align: center;
     line-height: normal;
@@ -61,9 +74,9 @@ body{
 }
 
 .h2 {
-    grid-column: 2 /3;
+    grid-column: 1/3;
     background-color: #08407c;
-    font-size: x-large;
+    font-size: xxx-large;
     color: #fcb900;
     width: 100%;
     height: 50px;
@@ -74,57 +87,60 @@ body{
 }
 
  #mission-paragraph {
-    grid-column: 1/-1;
+    grid-column: 1/4;
     grid-row: 3/4;
+    font-size: xxx-large;
     color: white;
     line-height: 170%;
-    padding-bottom: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 3% 10% 3% 10%;
 }
 
 
 .appointment-heading {
-    grid-column: 1/-1;
+    grid-column: 1/4;
     grid-row: 4/5;
     background-color: #08407c;
     text-align: center;
-    font-size: x-large;
+    font-size: xxx-large;
     color: white;
     font-weight: 800;
     padding: 3% 1% 2% 1%;
     border-top: #fcb900 2px dashed;
 }
 
-
 .shop-paragraph {
     border-bottom: #fcb900 2px dashed;
-    background-color: #08407c;
     color:white;
-    grid-column: 1/-1;
+    font-size: xxx-large;
+    grid-column: 1/4;
     line-height: 170%;
-    padding: 3% 10% 3% 10%;
+    padding: 1% 10% 3% 10%;
 }
 
 .shop-paragraph a {
     color: #fcb900;
 }
 .who-we-are {
-    grid-column: 1/-1;
-    font-size: x-large;
-    padding-top: 5%;
-    color: #fcb900;
-    text-align: center;
+    grid-column: 1/3;
+    text-align: left;
     font-weight: 800;
+    font-size: xxx-large;
+    color: #fcb900;
+    width: 100%;
+    height: 50px;
+    align-content: center;
+    padding-left: 9%;
+    padding-top: 5%;
 }
 
 .wwa-paragraph {
     color: white;
-    grid-column: 1/-1;
+    grid-column: 1/4;
     line-height: 170%;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 2%;
+    font-size: xxx-large;
     padding-bottom: 4%;
 }
 
@@ -135,25 +151,27 @@ body{
 
 
 .youtube-video{
+    grid-column: 2/3;
     grid-row: 9/10;
+    justify-content: center;
 }
 
 
 .wwp {
-    font-size: x-large;
+    grid-column: 1/3;
+    text-align: left;
+    font-weight: 800;
+    font-size: xxx-large;
     color: #fcb900;
-    padding-top: 170%;
-    font-weight: 650;
-    grid-row: 9/10;
-    line-height: normal;
-    text-align: center;
+    width: 100%;
+    height: 50px;
+    align-content: center;
+    padding-left: 9%;
+    padding-top: 10%;
 }
 
 .icons {
-    display: grid;
     padding-bottom: 30px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-start: 10;
     grid-column: 2/3;
     text-align: center;
 }
@@ -162,15 +180,15 @@ body{
 .icons > img {
     width: 100%;
     padding-bottom: 5%;
-    padding-top: 40%;
-    padding-left: 100%;
+    padding-top: 20%;
+    grid-column: 2/3;
 }
 
 .icons > h6 {
     grid-column: 1/-1;
     color: #fcb900;
     justify-self: center;
-    font-size: larger;
+    font-size: xxx-large;
     line-height: 170%;
     padding-top: 5%;
     font-weight: 800;
@@ -179,10 +197,9 @@ body{
 .icons > .icon-heading {
     grid-column: 1/-1;
     color: #fcb900;
-    text-align: center;
     line-height: 170%;
-    font-size: larger;
-    padding-top: 5%;
+    font-size: xxx-large;
+    padding-top: 0%;
     font-weight: 800;
 }
 
@@ -194,46 +211,49 @@ body{
     grid-column: 1/-1;
     line-height: 120%;
     padding-top: 5%;
+    font-size: xxx-large;
 }
 
 .icons p {
 grid-column: 1/-1;
 color: #fcb900;
-line-height: 120%;
+line-height: 170%;
 padding-top: 5%;
+font-size: xxx-large;
 }
 
 .footer_tutor {
-    background-color: #08407c;
     border-top: #fcb900 solid 2px;
+    align-items: center;
+    width: 230%;
+    justify-items: center;
+    justify-self: center;
+    padding: 5% 0% 6% 125%;
+    font-size: xx-large;
 }
 
 .food_footer {
-    line-height: 130%;
-    text-align: center;
-    border-top: #fcb900 solid 2px;
+    align-items: center;
+    width: 230%;
+    justify-items: center;
+    justify-self: center;
+    padding: 5% 0% 6% 125%;
+    font-size: xx-large;
 }
 
-.advising_footer {
-    border-top: #fcb900 solid 2px;
-}
 
-footer nav img {
-    width: 100px;
-    height: 100px;
-    align-content: end;
-}
 
 .links_and_such ul {
-    padding: 6% 3% 6% 3%;
-    gap:5%;
-    font-size:large;
+    padding: 6% 3% 10% 60%;
+    gap:10%;
+    font-size: xxx-large;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;
     text-align: center;
+    padding-top: 12%;
 }
 
 li a {
@@ -253,51 +273,44 @@ li a:focus {
 }
 
 li a:active {
-    background-color: #062546; 
+    background-color: #062546;
 }
-
-
 
 
 #main-content{
-    display: grid;
-    grid-template-columns: 100px 200px 100px;
     font-family: Arial, sans-serif;
-    font-size: large;
-    overflow-x: hidden;
-    background-color:  #08407c;
-    color: white;
-}
-.important_image{
-    grid-column: 2/3;
-    width:130%;
-    height:130%;
-    justify-self: center;
+    font-size: xxx-large;
+    background-color:#08407c;
+    line-height: 170%;
+    padding: 0;
+    margin: 0;
 }
 
+.important_image{
+    width:100%;
+    height:100%;
+    justify-self: center;
+}
 .academic_logo{
-    grid-column: 1/4;  
-    width:130%;
+    width:238%;
 }
 
 .title {
-    grid-column: 1/-1;
     font-weight: 800;
-    padding-top: 5%;
+    padding-top: 2%;
     justify-self: center;
     line-height: normal;
     color: white;
-    font-size: xx-large;
+    font-size: xxx-large;
     text-align: center;
-    padding-top: 7%;
 }
 
 .academic_calendar_link {
-    grid-column: 1 / -1; 
     text-align: center;
     line-height: 170%;
     padding-bottom: 2%;
     padding-top: 2%;
+    margin: 2%;
 }
 
 main .academic_calendar_link a {
@@ -318,6 +331,7 @@ main .academic_calendar_link a {
     padding-top: 5%;
     color: #fcb900;
     font-weight: 800;
+    text-align: center;
 }
 
 #main-content p {
@@ -325,8 +339,8 @@ main .academic_calendar_link a {
     grid-column: 1/-1;
     padding-bottom: 5%;
     line-height: 170%;
-    padding: 3%;
     border-bottom:#fcb900 dashed 2px;
+    padding-left: 5%;
 }
 #main-content p:last-child{
     border-bottom:none;
@@ -339,101 +353,100 @@ main .academic_calendar_link a {
 footer{
     text-align: center;
     color: white;
+    align-items: center;
+    width: 233%;
+    justify-items: center;
+    justify-self: center;
+    padding: 5% 0% 6% 120%;
+    font-size: xx-large;
 }
 
-footer a {
-    color: #08407c;
-    grid-column: 1 / -1;
-}
 
 #main {
-    display: grid;
-    grid-template-columns: 100px 200px 100px;
     font-family: Arial, sans-serif;
-    font-size: large;
-    overflow-x: hidden;
+    font-size: xxx-large;
     background-color:#08407c;
+    line-height: 170%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-left: 10%;
 }
 
-
 .navbar2 {
-    grid-column: 1/3;
+    padding: 0;
+    margin: 0;
 }
 
 .tutor_logo {
-    width: 130%;
+    width: 227%;
     height: 100%;
 }
 
 .tutor_title {
-    grid-column: 1/4;
-    text-align: center;
-    color: white;
-    font-size: xx-large;
-     font-weight: 800;
-    padding-top: 2%;
-    padding-left: 5px;
-    margin: 2%;
-}
-
-.welcome {
-    grid-column: 1/4; 
     font-weight: 800;
-    color: white;
-    font-size: x-large;
     padding-top: 2%;
     padding-bottom: 3%;
-    width: 100%;
-    padding-left: 5px;
-    margin-left: 4%;
-    margin-top: 2%;
+    line-height: 130%;
+    color:#fcb900;
+    font-size: xxx-large;
+    justify-content: center;
+    justify-self: center;
+    margin-left: 100%;
+    width: 200%;
 }
+
 #main .program {
-    grid-column: 1/4; 
     color: white;
-    font-size: x-large;
-    padding-bottom: 2%;
-    padding-top: 7%;
-    width: 100%;
+    font-size: xxx-large;
+    padding-bottom: 5%;
+    line-height: 170%;
+    padding-top: 8%;
+    width: 200%;
     margin-left: 2%;
-    padding-left: 5px;
-    margin-left: 5%;
+    padding-left: 8%;
 }
 
 #main p {
-    grid-column: 1/4;
     color: white;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
+    padding-left: 10%;
     line-height: 170%;
-    padding-left: 5px;
-    margin-left: 4%;
     padding-right: 5%;
-
+    font-size: xxx-large;
+    width: 200%;
+    text-align: left;
 }
 
 .tutor_links {
-    line-height: 170%;
-    grid-column: 1/4;
+    line-height: 150%;
     text-align: left;
     list-style-type: disc;
     margin-left: 10%;
+    font-size: xxx-large;
+    width: 200%;
 }
 
 .tutor_bullet {
     color: #fcb900;
     background-color:#08407c;
     font-weight: 800;
+    font-size: xxx-large;
+    width: 100%;
 }
 
 .tutor_bullet a{
     color:#fcb900;
     background-color:#08407c;
     text-decoration: underline;
+    font-size: xxx-large;
+    width: 100%;
     }
 
 
 
 .tutor_specific {
+    font-size: xxx-large;
     background-color:#08407c;
     list-style-type: none;
     padding-left: 10%;
@@ -447,25 +460,12 @@ footer a {
 footer a {
     color:#fcb900;
 }
-footer {
-    padding: 4%;
-    line-height: 130%;
-    text-align: center;
-    }
     
-
-.umsi_logo{
-    height: 100px;
-    grid-row: 2/3;
-    grid-column: 1/-1;
-    align-content: center;
-    padding-left: 2%;
-}
 
 .success_portal_title {
     text-align: center;
     color: white;
-    font-size: x-large;
+    font-size: xxx-large;
     font-weight: 800;
     margin: 2%;
     padding-top: 3%;
@@ -474,21 +474,26 @@ footer {
 
 #home-content{
     display: grid;
-    grid-template-columns: 100px 200px 100px;
+    grid-template-columns: 1fr 2fr 1fr;
     font-family: Arial, sans-serif;
-    font-size: large;
+    font-size: xxx-large;
     background-color:#08407c;
     line-height: 170%;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .welcome_title {
     grid-column: 1/4;
+    grid-row: 1/2;
     text-align: center;
     color: white;
-    font-size: xx-large;
+    font-size: xxx-large;
     font-weight: 800;
     line-height: normal;
-    padding: 0% 3% 5% 3%;
+    padding: 3% 3% 5% 3%;
 }
 
 
@@ -497,17 +502,19 @@ footer {
     grid-row: 2/3;
     text-align: center;
     color: white;
-    font-size: larger;
+    font-size: xxx-large;
     padding-left: 5px;
     margin: 2%;
+    padding-top: 3%;
 }
 .welcome_title_two{
     grid-column: 1/4;
     text-align: left;
     color: white;
-    padding-left: 5px;
+    padding-left: 8%;
     margin: 2%;
-    padding-bottom: 1%;
+    font-size: xxx-large;
+    padding-top: 3%;
 }
 
 
@@ -518,6 +525,7 @@ footer {
     margin: 0% 2% 2% 4%;
     padding-left: 5%;
     padding-bottom:4%;
+    font-size: xxx-large;
 }
 
 .physical_health{
@@ -528,6 +536,7 @@ footer {
     text-align: left;
     margin-bottom: 5%;
     padding: 4%;
+    font-size: xxx-large;
 }
 
 .physical_health p{
@@ -536,15 +545,17 @@ footer {
 
 .ph_head {
     font-weight: 600;
-    font-size: larger;
-    padding: 4%;
+    padding-left: 10%;
+    font-size: xxx-large;
 }
 
 .UHS {
-    padding-top: 2%;
+    padding-top: 5%;
     font-weight: 600;
     color: white;
     text-align: center;
+    font-size: xxx-large;
+    padding-left: 3%;
 }
 
 .uhs_image {
@@ -564,11 +575,12 @@ footer {
     color: white;
     text-align: left;
     padding: 4%;
+    font-size: xxx-large;
 }
 
 .mh_head {
     font-weight: 600;
-    font-size: larger;
+    font-size: x-large;
     padding-left: 4%;
 }
 
@@ -578,20 +590,21 @@ footer {
     padding-top: 5%;
     font-weight: 600;
     padding-left: 4%;
+    font-size: xxx-large;
 }
-
 #life-outside-classroom{
     grid-column: 1/4;
     background-color: #08407c;
     color: white;
     text-align: left;
+    padding-left: 4%;
 }
 
 
 #life-outside-classroom h2{
     border-top: #fcb900 dashed 2px;
     font-weight: 600;
-    font-size: larger;
+    font-size: xxx-large;
     padding: 4%;
 }
 
@@ -612,6 +625,7 @@ footer {
     padding-right: 4%; 
     padding-left: 4%;
     padding-top: 5%;
+    font-size: xxx-large;
 }
 
 #life-outside-classroom li strong{
@@ -620,13 +634,11 @@ footer {
     }
 
 #life-outside-classroom li:last-child{
-    border-bottom: #fcb900 2px solid;
     padding-bottom: 3%;
 }
 
 #life-outside-classroom ul {
     list-style-type: disc;
-    padding-left: 10%;
 }
 
 #life-outside-classroom li {
@@ -635,5 +647,7 @@ footer {
 
 .advising {
     background-color: #08407c;
+    padding-top: 1935%;
+
     }
 
