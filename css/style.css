@@ -1,5 +1,6 @@
 body{
     background-color:#08407c;
+    overflow-x:hidden 
 }
 .skip-link{
     position: absolute;
@@ -29,6 +30,7 @@ body{
 
 .mbc-grid-page{
     display: grid;
+    overflow-x:hidden ;
     grid-template-columns: 100px 200px 100px;
     font-family: Arial, sans-serif;
     font-size: large;
@@ -243,7 +245,6 @@ li a {
 li a.active {
     background-color: #062546;
     width: 100%;
-    overflow: visible;
 }
 
 li a:focus {
@@ -357,9 +358,8 @@ footer a {
 }
 
 .tutor_logo {
-    width: 100%;
+    width: 110%;
     height: 100%;
-    justify-self: center;
 }
 
 .tutor_title {
