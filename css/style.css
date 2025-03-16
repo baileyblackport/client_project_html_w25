@@ -8,8 +8,9 @@ body{
 }
 
 .skip-link:focus {
-    top: 25px;
+    top: 35px;
     background-color: white;
+    color: black;
     height: 25px;
 }
 
@@ -79,7 +80,7 @@ body{
     background-color: #08407c;
     text-align: center;
     font-size: x-large;
-    color: #08407c;
+    color: white;
     font-weight: 800;
     padding-top: 2%;
     padding-right: 1%;
@@ -243,7 +244,7 @@ li a:focus {
 }
 
 
-.main-content{
+#main-content{
     display: grid;
     grid-template-columns: 100px 200px 100px;
     font-family: Arial, sans-serif;
@@ -252,7 +253,7 @@ li a:focus {
     background-color:  #08407c;
     color: white;
 }
-.main-content img{
+#main-content img{
     grid-column: 1/-1;  
     width:100%;
 }
@@ -286,10 +287,10 @@ main .academic_calendar_link a {
     grid-column: 1 / -1; 
 }
 
-.main-content h3, 
-.main-content h4, 
-.main-content h5, 
-.main-content h6 {
+#main-content h3, 
+#main-content h4, 
+#main-content h5, 
+#main-content h6 {
     font-family: 'Arial', sans-serif;
     grid-column: 1 / -1;
     line-height: 170%;
@@ -300,7 +301,7 @@ main .academic_calendar_link a {
     font-weight: 800;
 }
 
-.main-content p {
+#main-content p {
     color: white;
     grid-column: 1/-1;
     padding-bottom: 5%;
@@ -308,10 +309,10 @@ main .academic_calendar_link a {
     padding: 3%;
     border-bottom:#fcb900 dashed 2px;
 }
-.main-content p:last-child{
+#main-content p:last-child{
     border-bottom:none;
 }
-.main-content a {
+#main-content a {
     color: white;
     font-weight: 800;
 }
@@ -327,7 +328,7 @@ footer a {
     grid-row: auto;
 }
 
-.main {
+#main {
     display: grid;
     grid-template-columns: 100px 200px 100px;
     font-family: Arial, sans-serif;
@@ -368,7 +369,7 @@ footer a {
     margin-left: 4%;
     margin-top: 2%;
 }
-.main .program {
+#main .program {
     grid-column: 1/4; 
     color: white;
     font-size: x-large;
@@ -381,7 +382,7 @@ footer a {
 }
 
 
-.main p {
+#main p {
     grid-column: 1/4;
     color: white;
     padding-bottom: 4%;
@@ -455,7 +456,7 @@ footer {
 }
 
 
-.home-content{
+#home-content{
     display: grid;
     grid-template-columns: 100px 200px 100px;
     font-family: Arial, sans-serif;
@@ -522,7 +523,7 @@ footer {
 
 .UHS {
     font-weight: 600;
-    color: #08407c;
+    color: white;
     text-align: center;
 }
 
