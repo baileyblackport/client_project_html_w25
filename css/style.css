@@ -36,8 +36,8 @@ html, body{
 }
 
 .mbc-logo {
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: 98%;
 }
 
 #mbc-grid-page {
@@ -177,9 +177,10 @@ html, body{
 
 
 .icons > img {
-    width: 12%;
-    height: 7%;
+    width: 22%;
+    height: 12%;
     grid-column: 2/3;
+    padding-top: 3%;
 }
 
 .icons > h6 {
