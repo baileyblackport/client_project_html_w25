@@ -35,6 +35,11 @@ html, body{
     padding-top: 5%;
 }
 
+.mbc-logo {
+    width: 100%;
+    height: 100%;
+}
+
 #mbc-grid-page {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
