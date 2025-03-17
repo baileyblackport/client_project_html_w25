@@ -35,7 +35,7 @@ html, body{
     padding-top: 5%;
 }
 
-.mbc-grid-page {
+#mbc-grid-page {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto;
