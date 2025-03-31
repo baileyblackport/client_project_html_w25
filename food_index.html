@@ -1,3 +1,4 @@
+\
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +19,7 @@
         </div>
 
         <nav aria-label="Main navigation">
-            <div class="links_and_such">
+            <div class="links_and_suchh">
                 <ul>
                     <li><a href= "index.html">Home</a></li>
                     <li><a href= "advising.html">Important Dates</a></li>
@@ -28,9 +29,9 @@
             </div>
         </nav>
     </header>
-    <main id="mbc-grid-page">
-    <h1>Welcome to Maize & Blue Cupboard</h1>
-    <h2 class="h2">OUR MISSION</h2>
+    <main>
+        <h1>Welcome to Maize & Blue Cupboard</h1>
+        <h2 class="h2">OUR MISSION</h2>
         <p id="mission-paragraph"> To ensure members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others.</p>
             <h3 class="appointment-heading">MAKE AN APPOINTMENT NOW</h3>
             <p class="shop-paragraph">Shopping at the Maize and Blue Cupboard is by appointment only.  Please make an appointment by visiting our sign up page<a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2023-10"> here</a>. </p>
@@ -60,12 +61,15 @@
                 <h5 class="icon-heading">SUPPORT</h5>
                 <p>Get connected to campus experts like CAPS, Dean of Students and Financial Aid, as well as SNAP (Michigan’s food program)</p>
             </div>
-    </main>
+        </main>
     <footer class="food_footer">
             <p>UMSI Academic Success</p>
             <p>Email:<a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources"> umsi.academicsuccess@umich.edu </a></p>
             <p>Website:<a href="https://www.si.umich.edu/student-experience/academic-success"> Academic Success </a></p>
-        </footer>
+            <p>© Copyrights <span id="year"></span> by CodexWorld. All rights reserved.</p>
+            <script>
+                document.getElementById("year").innerHTML = new Date().getFullYear();
+                </script>
     </footer>
 </body>
 
