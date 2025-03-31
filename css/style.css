@@ -508,9 +508,26 @@ footer a {
     margin: 2%;
 }
 
-.umsi_logo {
-    width: 100%;
+.indexhead{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: #fcb900 2px solid;
+    padding-left: 5%;
+    background-color: #062546;
+} 
+
+.success_portal_title {
+    padding: 3%;
+    font-size: x-large;
 }
+
+.umsi_logo {
+    height: 5%;
+    width: 10%;
+}
+
 
 .welcome_title_two{
     grid-column: 1/4;
