@@ -2,7 +2,6 @@ html, body{
     background-color:#08407c;
     margin: 0;
     overflow-x: hidden;
-    height: 100%; 
     font-family: Arial, sans-serif;
 }
 
@@ -20,7 +19,7 @@ html, body{
     border: #fcb900 2px solid;
     color:#08407c;
     background-color:white;
-    height: 20zpx;   
+    height: 20px;   
 }
 
 .skip-link:focus {
@@ -661,15 +660,6 @@ footer a {
     margin-bottom: 8px;
 }
 
-
-.advising {
-    grid-column: 1/-1;
-    font-size: large;
-    align-items: center;
-    margin-top: 50%;
-}
-
-
 @media screen and (min-width: 800px){
 
     .links_and_such ul {
@@ -950,7 +940,7 @@ footer a {
 
     footer{
         line-height: normal;
-        font-size: x-large;
+        font-size: xx-large;
     }
 
     .skip-link{
