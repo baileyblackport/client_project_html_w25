@@ -32,9 +32,6 @@ html, body{
     height: 20px;   
 }
 
-.navbar img {
-    padding-top: 5%;
-}
 
 .mbc-logo {
     width: 98%;
@@ -48,23 +45,15 @@ html, body{
     height: 50px;
 }
 
-
-.links_and_suchh ul{
-    display: flex;
-    gap:5%;
-    font-size: large;
-    justify-content: center;
-    text-align: center;
-    padding: 10% 5% 2% 5%;
-}
-
 main h1{
     justify-content: center;
     line-height: normal;
     color: white;
     font-size:x-large;
+    background-color: #062546;
+    border: #fcb900 2px solid;
+    padding: 2%;
     text-align: center;
-    margin-top: 5%;
     font-weight: 800;
 }
 
@@ -119,10 +108,6 @@ main h1{
     align-content: center;
     padding-left: 9%;
     font-weight: 800;
-}
-
-.youtube-video{
-    margin-left: 2%;
 }
 
 .wwa-paragraph {
@@ -211,16 +196,12 @@ padding-right: 6%;
 
 
 .links_and_such ul {
-    padding: 0% 3% 5% 2%;
-    gap:5%;
+    padding: 5% 20% 5% 3%;
     font-size: large;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100%;
     text-align: center;
-    padding-top: 5%;
 }
 
 li a {
@@ -266,9 +247,11 @@ li a:active {
     grid-column: 1/-1;
     font-weight: 800;
     color: white;
-    font-size: large;
-    border: #fcb900 dashed 2px;
+    font-size: x-large;
+    border: #fcb900 solid 2px;
+    background-color: #062546;
     align-self: center;
+    padding: 2%;
 }
 
 .academic_calendar_link {
@@ -281,15 +264,20 @@ li a:active {
 }
 
 .important_icon{
-    width: 50%;
-    margin-left: 25%;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 2%;
 
+}
+
+.important_grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 main .academic_calendar_link a {
     color: hsl(44, 100%, 49%);
     width: 100%; 
-    grid-column: 1 / -1; 
 }
 
 #main-content h3, 
@@ -297,12 +285,11 @@ main .academic_calendar_link a {
 #main-content h5, 
 #main-content h6{
     font-family: 'Arial', sans-serif;
-    grid-column: 1/-1;
+    grid-column: 1/2;
     line-height: 170%;
-    padding: 5% 3% 0% 10%;
+    padding: 3% 3% 0% 10%;
     color: #fcb900;
     font-weight: 800;
-    align-self: center;
     font-size: larger;
     border-top: #fcb900 dashed 2px;
 }
@@ -310,13 +297,15 @@ main .academic_calendar_link a {
 
 #main-content p {
     color: white;
-    grid-column: 1/-1;
-    font-size: larger;
+    grid-column: 2/3;
+    border-top: #fcb900 dashed 2px;
+    font-size: large;
     line-height: 150%;
+    padding-top: 3%;
+    border-left: #fcb900 2px dashed;
 }
 #main-content p:last-child{
     border-bottom:none;
-
 }
 #main-content a {
     color: white;
@@ -331,7 +320,7 @@ footer{
     justify-self: center;
     padding: 5% 0% 6% 1%;
     width: 100%;
-    font-size: large;
+    font-size:small;
     background-color: #062546;
     display: flex;
     flex-direction: column;
@@ -363,28 +352,30 @@ footer{
     padding-top: 2%;
     padding-bottom: 3%;
     line-height: 130%;
-    color:#fcb900;
-    font-size: larger;
+    background-color: #062546;
+    border: #fcb900 2px solid;
+    padding: 2%;
+    font-size: x-large;
     justify-content: center;
     justify-self: center;
-    grid-column: 1/-1;
 }
 
 main p{
-    grid-column: 2/3;
+    padding-top: 3%;
 }
+
+
 main .program {
     color: white;
     font-size: large;
-    padding-bottom: 5%;
     line-height: 130%;
-    padding-top: 8%;
+    padding-top: 3%;
 }
 
 main p{
     color: white;
-    padding-bottom: 6%;
     padding-left: 10%;
+    padding-bottom: 3%;
     line-height: 130%;
     font-size: large;
     text-align: left;
@@ -445,7 +436,6 @@ main p{
 }
 
 .program{
-    grid-column: 1/-1;
     margin-bottom: 2%;
 
 }
@@ -485,26 +475,37 @@ footer a {
     margin: 0;
 }
 
+.links_and_suchh ul{
+    padding: 5% 20% 5% 3%;
+    font-size: large;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
 .welcome_title {
-    display: grid;
-    grid-column: 1/-1;
     text-align: center;
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 800;
     line-height: normal;
+    background-color: #062546;
+    border: #fcb900 2px solid;
+    padding:2%;
 }
 
 
 .welcome_title_second{
-    grid-column: 2/4;
     line-height: 150%;
     text-align: center;
     color: white;
     font-size: large;
     padding-left: 5px;
-    padding-top: 5%;
-    margin: 2%;
+    padding-top: 3%;
+    margin: 2% 2% 0% 2%;
+    padding-bottom: 0%;
 }
 
 .indexhead{
@@ -532,23 +533,49 @@ footer a {
     grid-column: 1/4;
     text-align: left;
     color: white;
-    padding-left: 8%;
-    margin: 2%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    margin: 3%;
     font-size: large;
     line-height: 150%;
 }
 
 
 .umsi_resources {
-    grid-column: 2/3;
     list-style-type: disc;
     color: #fcb900;
-    line-height: 140%;
     margin: 0% 2% 2% 4%;
     padding-left: 5%;
+    line-height: 170%;
     padding-bottom:4%;
     font-size: large;
 }
+
+
+.umsi_resources li{
+    grid-column: 1/2;
+}
+
+.homeicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+
+
+.books_photo{
+    width: 20%;
+}
+
+.ph_photo{
+    width: 20%;
+}
+
+.mh_photo{
+    width: 20%;
+}
+
 
 .physical_health{
     border-top: #fcb900 dashed 2px;
@@ -556,7 +583,6 @@ footer a {
     background-color:#062546;
     color: white;
     text-align: left;
-    margin-bottom: 5%;
     padding: 4%;
     font-size: large;
     line-height: 150%;
@@ -660,10 +686,61 @@ footer a {
     margin-bottom: 8px;
 }
 
+.errorpage {
+    background-color: #062546;
+}
+
+.title404{
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.header404{
+    color: white;
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+}
+
+.silly {
+    height:50%;
+    width:60%;
+}
+
+.goback404 a{
+    color: white;
+    margin-left: 35%;
+    font-size: x-large;
+}
+
+.goback404{
+    margin-top: 5%;
+}
+
+.image404{
+    margin: 5% 0% 5% 30%; 
+    height:25%;
+    width:50%;
+
+}
+
+
 @media screen and (min-width: 800px){
 
     .links_and_such ul {
         font-size: xx-large;
+        gap: 9%;
+        padding-left: 5%;
+    }
+
+    .links_and_suchh ul {
+        font-size: xx-large;
+        gap: 9%;
+        padding-left: 5%;
+        padding-top: 14%;
     }
 
     .indexhead{
@@ -671,7 +748,7 @@ footer a {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: flex-end;
-        border-bottom: #fcb900 2px solid;
+        border-bottom: #fcb900 4px solid;
         padding-left: 5%;
         background-color: #062546;
     }
@@ -693,7 +770,7 @@ footer a {
         padding-top: 5%;
         margin-bottom: 2%;
         background-color: #062546;
-        border: #fcb900 2px solid;
+        border: #fcb900 4px solid;
     }
 
     .welcome_title_second{
@@ -710,14 +787,41 @@ footer a {
         font-size: xx-large;
     }
 
+    .umsi_resources{
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 0.8s ease-out forwards;
+      }
+    
+      .umsi_resources:nth-child(1) {
+        animation-delay: 0.4s;
+      }
+      .umsi_resources:nth-child(2) {
+        animation-delay: 0.7s;
+      }
+      .umsi_resources:nth-child(3) {
+        animation-delay: 1s;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
     .physical_health {
         font-size: xx-large;
+        border-top: #fcb900 4px dashed;
     }
 
     main p{
         font-size: xx-large;
         padding-top: 0%;
-        padding-bottom: 3%;
     }
 
     .UHS{
@@ -726,6 +830,7 @@ footer a {
 
     #life-outside-classroom{
         font-size: xx-large;
+        border-top: #fcb900 4px dashed;
     }
 
     .mh_bullets {
@@ -771,13 +876,36 @@ footer a {
     .title {
         font-size: xxx-large;
         border: none;
+        border: #fcb900 solid 4px;
+        padding: 1.5%;
     }
 
 
     .academic_calendar_link{
         font-size: xx-large;
-
     }
+
+
+    .academic_calendar_link{
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 0.8s ease-out forwards;
+      }
+
+      .academic_calendar_link {
+        animation-delay: 0.4;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
 
 
     .important_icon{
@@ -787,28 +915,30 @@ footer a {
     }
 
 
+
     #main-content h3, #main-content h4, #main-content h5, #main-content h6 {
         font-size: x-large;
-        padding: 3% 3% 0% 5%;
+        padding: 3% 3% 0% 7%;
+        border-top: #fcb900 dashed 4px;
     }
 
     #main-content p{
         font-size: x-large;
-        padding-left: 5%;
+        padding-left: 3%;
+        padding-top: 2%;
+        border-left: #fcb900 4px dashed;
+        border-top: #fcb900 4px dashed;;
     }
 
     .mbc-logo{
-        height: 150%;
-        width: 50%;
-    }
-
-    .navbar img {
         padding-top: 3%;
+        height: 250%;
+        width: 80%;
     }
-
     main h1{
         font-size: xxx-large;
         grid-column: 2/3;
+        border: #fcb900 4px solid;
     }
 
     main .h2{
@@ -829,37 +959,70 @@ footer a {
 
     .appointment-heading {
         font-size: x-large;
+        border-top: #fcb900 4px dashed;
     }
+
+    .appointment-heading{
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 0.8s ease-out forwards;
+      }
+
+      .appointment-heading {
+        animation-delay: 0.4;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
 
     #mission-paragraph{
         font-size: xx-large;
     }
-   
-   
+
     .shop-paragraph {
         font-size: x-large;
+        border-bottom: #fcb900 4px dashed;
     }
 
     .wwa-paragraph {
         font-size: x-large;
     }
 
-    .links_and_suchh ul{
-        display: flex;
-        gap:5%;
-        font-size: xx-large;
-        justify-content: center;
-        text-align: center;
-        padding: 10% 5% 2% 5%;
-    }
-
-
-
     .youtube-video{
         margin-left: 30%;
     }
 
-    
+
+    .tutor_links{
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 0.8s ease-out forwards;
+      }
+
+      .tutor_links{
+        animation-delay: 0.4;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
     .tutor_title{
         font-size: xxx-large;
         background-color: #062546;
@@ -918,6 +1081,8 @@ footer a {
 
     .icons > img {
         padding-top: 10%;
+        width: 50%;
+        justify-self: center;
     }
 
     .icons > h6{
@@ -947,6 +1112,32 @@ footer a {
         top: -100px;
     }
     
+    .title404{
+        font-size: xxx-large;
+    }
+    
+    .header404{
+        font-size: xx-large;
+    }
+    
+    .silly {
+        height:65%;
+    }
+    
+    .goback404 a{
+        margin-left: 30%;
+        font-size: xx-large;
+    }
+    
+    .goback404{
+        margin-top: 5%;
+        font-size: xx-large;
+    }
+    
+    .image404{
+        margin: 5% 0% 5% 25%; 
+        height:35%;
+    }
 
 
 
