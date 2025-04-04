@@ -568,6 +568,13 @@ footer a {
     width: 20%;
 }
 
+.books_photo{
+    width: 20%;
+}
+
+.hands_photo{
+    width: 30%
+}
 
 .physical_health{
     border-top: #fcb900 dashed 2px;
