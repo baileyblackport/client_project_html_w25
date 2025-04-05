@@ -328,6 +328,9 @@ footer{
     flex-direction: column;
 }
 
+.umsi_email{
+    color: #fcb900;
+}
 
 #main {
     font-family: Arial, sans-serif;
