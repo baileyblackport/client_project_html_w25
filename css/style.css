@@ -455,6 +455,8 @@ footer a {
     color:#fcb900;
 }
 
+
+
 .success_portal_title {
     text-align: center;
     color: white;
@@ -1110,6 +1112,10 @@ footer a {
         font-size: xx-large;
     }
 
+    .umsi_email{
+        color: #fcb900;
+    }
+    
     .skip-link{
         top: -100px;
     }
